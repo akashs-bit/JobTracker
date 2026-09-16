@@ -17,7 +17,7 @@ import {
   AlertCircle,
 } from "lucide-react";
 
-const API_BASE = "http://localhost/backend/api/jobs";
+const API_BASE = "https://jobtrackerapp.rf.gd/backend/api/jobs";
 
 const emptyForm = {
   title: "",

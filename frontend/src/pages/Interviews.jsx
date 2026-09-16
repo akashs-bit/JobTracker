@@ -16,7 +16,7 @@ import {
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
-const INTERVIEWS_API = "http://localhost/backend/api/interviews";
+const INTERVIEWS_API = "https://jobtrackerapp.rf.gd/backend/api/interviews";
 
 /* =========================================================
    GET LOGGED-IN USER

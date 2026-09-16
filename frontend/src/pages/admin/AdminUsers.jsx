@@ -19,7 +19,7 @@ import {
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-const USERS_API = "http://localhost/backend/api/users";
+const USERS_API = "https://jobtrackerapp.rf.gd/backend/api/users";
 
 const AdminUsers = () => {
   const navigate = useNavigate();

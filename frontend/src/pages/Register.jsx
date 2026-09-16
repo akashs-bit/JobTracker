@@ -75,7 +75,7 @@ const Register = () => {
       setLoading(true);
 
       const response = await fetch(
-        "http://localhost/backend/api/auth/register.php",
+        "https://jobtrackerapp.rf.gd/backend/api/auth/register.php",
         {
           method: "POST",
           headers: {

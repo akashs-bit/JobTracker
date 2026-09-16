@@ -18,7 +18,7 @@ import {
   Sparkles,
 } from "lucide-react";
 
-const JOB_API = "http://localhost/backend/api/jobs/get-by-id.php";
+const JOB_API = "https://jobtrackerapp.rf.gd/backend/api/jobs/get-by-id.php";
 
 const JobDetails = () => {
   const { id } = useParams();

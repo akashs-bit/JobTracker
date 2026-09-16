@@ -20,9 +20,9 @@ import {
 } from "lucide-react";
 import { Link, useNavigate } from "react-router-dom";
 
-const JOBS_API = "http://localhost/backend/api/jobs/get.php";
+const JOBS_API = "https://jobtrackerapp.rf.gd/backend/api/jobs/get.php";
 const APPLICATIONS_API =
-  "http://localhost/backend/api/applications/get-all-applications.php";
+  "https://jobtrackerapp.rf.gd/backend/api/applications/get-all-applications.php";
 
 const AdminDashboard = () => {
   const navigate = useNavigate();

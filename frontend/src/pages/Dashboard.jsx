@@ -30,10 +30,10 @@ import {
 } from "lucide-react";
 
 const APPLICATIONS_API =
-  "http://localhost/backend/api/applications/get-my-applications.php";
+  "https://jobtrackerapp.rf.gd/backend/api/applications/get-my-applications.php";
 
 const INTERVIEWS_API =
-  "http://localhost/backend/api/interviews/get-my-interviews.php";
+  "https://jobtrackerapp.rf.gd/backend/api/interviews/get-my-interviews.php";
 
 const menuItems = [
   { label: "Overview", icon: LayoutDashboard, path: "/dashboard" },

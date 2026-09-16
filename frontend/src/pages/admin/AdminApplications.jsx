@@ -23,9 +23,9 @@ import {
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
-const APPLICATIONS_API = "http://localhost/backend/api/applications";
-const BACKEND_BASE_URL = "http://localhost/backend";
-const INTERVIEWS_API = "http://localhost/backend/api/interviews";
+const APPLICATIONS_API = "https://jobtrackerapp.rf.gd/backend/api/applications";
+const BACKEND_BASE_URL = "https://jobtrackerapp.rf.gd/backend";
+const INTERVIEWS_API = "https://jobtrackerapp.rf.gd/backend/api/interviews";
 
 
 const getResumeUrl = (resume) => {

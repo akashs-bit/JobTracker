@@ -17,10 +17,10 @@ import {
 } from "lucide-react";
 
 const SAVED_JOBS_API =
-  "http://localhost/backend/api/saved-jobs/get-my-saved-jobs.php";
+  "https://jobtrackerapp.rf.gd/backend/api/saved-jobs/get-my-saved-jobs.php";
 
 const REMOVE_SAVED_JOB_API =
-  "http://localhost/backend/api/saved-jobs/remove.php";
+  "https://jobtrackerapp.rf.gd/backend/api/saved-jobs/remove.php";
 
 const SavedJobs = () => {
   const [savedJobs, setSavedJobs] = useState([]);
