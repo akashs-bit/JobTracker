@@ -1,6 +1,5 @@
 <div align="center">
-  <!-- Dynamic Animated Header Banner -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=38B2AC&height=220&section=header&text=💼%20JobTracker&fontSize=60&fontColor=ffffff&animation=fadeIn&desc=A%20Complete%20Job%20Application%20Tracking%20Platform" alt="JobTracker Banner" />
+
 
   <br />
 
@@ -27,21 +26,6 @@
 
 🌐 **Live Website:** [job-tracker-drab-mu.vercel.app](https://job-tracker-drab-mu.vercel.app)
 
-<details>
-  <summary><b>📸 Click to view project screenshots</b></summary>
-  
-  <br/>
-  <div align="center">
-    <!-- Replace these with actual image links once you have them -->
-    <img src="https://via.placeholder.com/800x400.png?text=Dashboard+Screenshot" alt="Dashboard View" width="80%" />
-    <br/>
-    <i>Candidate Dashboard Overview</i>
-    <br/><br/>
-    <img src="https://via.placeholder.com/800x400.png?text=Admin+Panel+Screenshot" alt="Admin Panel View" width="80%" />
-    <br/>
-    <i>Admin Job Management Panel</i>
-  </div>
-</details>
 
 ---
 
