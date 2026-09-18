@@ -1,9 +1,9 @@
 <?php
 
 header("Content-Type: application/json; charset=UTF-8");
-header("Access-Control-Allow-Origin: http://localhost:5173");
+header("Access-Control-Allow-Origin: https://job-tracker-drab-mu.vercel.app");
 header("Access-Control-Allow-Methods: POST, OPTIONS");
-header("Access-Control-Allow-Headers: Content-Type");
+header("Access-Control-Allow-Headers: Content-Type, Authorization");
 
 // Handle preflight request
 if ($_SERVER["REQUEST_METHOD"] === "OPTIONS") {
@@ -43,7 +43,7 @@ if ($conn->connect_error) {
 
     echo json_encode([
         "success" => false,
-        "message" => "Database connection failed: " . $conn->connect_error
+        "message" => "Database connection failed."
     ]);
 
     exit;
@@ -96,16 +96,7 @@ if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
     exit;
 }
 
-/*
-|--------------------------------------------------------------------------
-| Find user
-|--------------------------------------------------------------------------
-|
-| IMPORTANT:
-| role is included here.
-|
-*/
-
+// Find user
 $query = "
     SELECT
         id,
@@ -125,7 +116,7 @@ if (!$stmt) {
 
     echo json_encode([
         "success" => false,
-        "message" => "Database query preparation failed: " . $conn->error
+        "message" => "Database query preparation failed."
     ]);
 
     exit;
@@ -166,12 +157,7 @@ if ($result->num_rows === 0) {
 
 $user = $result->fetch_assoc();
 
-/*
-|--------------------------------------------------------------------------
-| Verify password
-|--------------------------------------------------------------------------
-*/
-
+// Verify password
 if (!password_verify($password, $user["password"])) {
     http_response_code(401);
 
@@ -186,31 +172,19 @@ if (!password_verify($password, $user["password"])) {
     exit;
 }
 
-/*
-|--------------------------------------------------------------------------
-| Check role
-|--------------------------------------------------------------------------
-*/
-
+// Check role
 $role = strtolower(trim($user["role"] ?? "user"));
 
-// Only allow these roles
 if ($role !== "admin" && $role !== "user") {
     $role = "user";
 }
 
-/*
-|--------------------------------------------------------------------------
-| Login successful
-|--------------------------------------------------------------------------
-*/
-
+// Login successful
 http_response_code(200);
 
 echo json_encode([
     "success" => true,
     "message" => "Login successful",
-
     "user" => [
         "id" => (int) $user["id"],
         "name" => $user["name"],
