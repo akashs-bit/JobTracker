@@ -1,16 +1,18 @@
+
 <?php
 
-$host = "127.0.0.1";
-$dbname = "jobtracker";
-$username = "root";
-$password = "Akash@05";
+$host = getenv("DB_HOST");
+$dbname = getenv("DB_NAME");
+$username = getenv("DB_USER");
+$password = getenv("DB_PASSWORD");
+$port = getenv("DB_PORT") ?: 3306;
 
 $conn = new mysqli(
     $host,
     $username,
     $password,
     $dbname,
-    3306
+    $port
 );
 
 if ($conn->connect_error) {
