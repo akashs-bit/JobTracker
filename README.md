@@ -1,97 +1,126 @@
 <div align="center">
-  <!-- You can add a logo image here if you have one -->
-  <!-- <img src="docs/logo.png" alt="Logo" width="150" /> -->
+  <!-- Dynamic Animated Header Banner -->
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=38B2AC&height=220&section=header&text=💼%20JobTracker&fontSize=60&fontColor=ffffff&animation=fadeIn&desc=A%20Complete%20Job%20Application%20Tracking%20Platform" alt="JobTracker Banner" />
+
+  <br />
+
+  [![Live Demo](https://img.shields.io/badge/🔴_Live_Demo-job--tracker--drab--mu.vercel.app-blue?style=for-the-badge&logo=vercel)](https://job-tracker-drab-mu.vercel.app)
   
-  # 💼 JobTracker
+  <br />
 
-  **A Complete Job Application Tracking Platform**
-
-  A full-stack solution to help users discover opportunities, manage applications, and track their career progress all in one place. Includes a dedicated Admin Dashboard for managing the portal.
-
-  [![Live Demo](https://img.shields.io/badge/Demo-Live_Website-blue?style=for-the-badge&logo=vercel)](https://job-tracker-drab-mu.vercel.app)
-  
-  ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-  ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
-  ![MySQL](https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white)
-  ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+  <!-- Tech Stack Badges -->
+  <img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/MySQL-005C84?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </div>
 
 ---
 
-## 📖 Table of Contents
-- [About The Project](#-about-the-project)
-- [Live Demo & Screenshots](#-live-demo--screenshots)
-- [Features](#-features)
-- [Tech Stack](#-tech-stack)
-- [Getting Started (Local Setup)](#-getting-started)
-- [Project Structure](#-project-structure)
-- [License](#-license)
+<div align="center">
+  <em>JobTracker is designed to simplify the chaotic job search process. Search for jobs, apply, save favorites, and track interview stages seamlessly, backed by a comprehensive Admin Dashboard for recruiters.</em>
+</div>
 
 ---
 
-## 📌 About The Project
-
-JobTracker is designed to simplify the chaotic job search process. Instead of losing track of where you applied and when, this platform allows candidates to search for jobs, apply, save favorites, and track interview stages seamlessly. 
-
-Additionally, it features a comprehensive **Admin Dashboard** allowing recruiters and administrators to post listings, review applicants, and move candidates through the hiring pipeline.
-
----
-
-## 🚀 Live Demo & Screenshots
+## 🚀 Live Demo & Visuals
 
 🌐 **Live Website:** [job-tracker-drab-mu.vercel.app](https://job-tracker-drab-mu.vercel.app)
 
-*(Add screenshots of your project below to make the README visually appealing)*
-
-> **Placeholder:** Add your screenshots here like this:
-> `<img src="path/to/screenshot1.png" width="400" />` `<img src="path/to/screenshot2.png" width="400" />`
-
----
-
-## ✨ Features
-
-### 👤 Candidate Portal (Users)
-- **🔐 Secure Access:** User registration and secure login.
-- **💼 Job Discovery:** Browse, search, and filter available job listings.
-- **📄 Deep Insights:** View complete job details, requirements, and company info.
-- **📝 Easy Applications:** Apply for jobs directly through the platform.
-- **❤️ Favorites:** Save jobs to review or apply to later.
-- **📊 Progress Tracking:** View submitted applications and track real-time status.
-- **📅 Interview Management:** Schedule and manage upcoming interviews.
-- **👤 Profile Management:** Update personal and professional details.
-
-### 🛠️ Recruiter Portal (Admins)
-- **📊 Analytics Dashboard:** Overview of portal activity and metrics.
-- **📋 Job Management:** Create, update, and delete job postings.
-- **👥 Applicant Tracking:** View all candidates who applied for specific roles.
-- **🔄 Pipeline Management:** Update application statuses (e.g., Pending, Interviewing, Hired, Rejected).
-- **📅 Interview Coordination:** Schedule and manage candidate interviews.
+<details>
+  <summary><b>📸 Click to view project screenshots</b></summary>
+  
+  <br/>
+  <div align="center">
+    <!-- Replace these with actual image links once you have them -->
+    <img src="https://via.placeholder.com/800x400.png?text=Dashboard+Screenshot" alt="Dashboard View" width="80%" />
+    <br/>
+    <i>Candidate Dashboard Overview</i>
+    <br/><br/>
+    <img src="https://via.placeholder.com/800x400.png?text=Admin+Panel+Screenshot" alt="Admin Panel View" width="80%" />
+    <br/>
+    <i>Admin Job Management Panel</i>
+  </div>
+</details>
 
 ---
 
-## 🧑‍💻 Tech Stack
+## ✨ Key Features
 
-| Frontend | Backend | Database & Deployment |
-| :--- | :--- | :--- |
-| **React.js** | **PHP** (REST API) | **MySQL** |
-| JavaScript (ES6+) | Apache Server | **Vercel** (Frontend Hosting) |
-| Tailwind CSS | | **Render** (Backend Hosting) |
-| React Router DOM | | **Docker** (Containerization) |
-| Axios & Lucide React | | |
-| Vite | | |
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>👤 Candidate Portal</h3>
+      <ul>
+        <li><b>🔐 Secure Access:</b> Seamless user registration and login.</li>
+        <li><b>💼 Job Discovery:</b> Advanced search and filter for listings.</li>
+        <li><b>📝 1-Click Apply:</b> Apply directly through the platform.</li>
+        <li><b>❤️ Save for Later:</b> Bookmark favorite job opportunities.</li>
+        <li><b>📊 Progress Tracking:</b> Real-time application status updates.</li>
+        <li><b>📅 Interview Manager:</b> Schedule and prep for interviews.</li>
+      </ul>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🛠️ Recruiter Dashboard</h3>
+      <ul>
+        <li><b>📊 Analytics:</b> High-level overview of portal metrics.</li>
+        <li><b>📋 Job Management:</b> Create, update, and delete postings.</li>
+        <li><b>👥 Applicant Tracking:</b> Review candidate profiles and resumes.</li>
+        <li><b>🔄 Pipeline Control:</b> Move candidates (Pending ➔ Hired).</li>
+        <li><b>📅 Coordination:</b> Set up candidate interview schedules.</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 ---
 
-## 💻 Getting Started
+## 🧑‍💻 Tech Stack Breakdown
 
-To get a local copy up and running, follow these simple steps.
+| Category | Technologies Used |
+| :--- | :--- |
+| **Frontend** | React.js, Tailwind CSS, React Router DOM, Axios, Lucide React, Vite |
+| **Backend** | PHP (REST API architecture), Apache Server |
+| **Database** | MySQL |
+| **Deployment** | Vercel (Frontend), Render (Backend), Docker |
 
-### Prerequisites
-- Node.js & npm installed
-- XAMPP/WAMP or a local PHP/MySQL environment
+---
 
-### Installation
+## 💻 Local Setup & Installation
 
-1. **Clone the repository**
-   ```bash
-   git clone [https://github.com/your-username/JobTracker.git](https://github.com/your-username/JobTracker.git)
+Follow these instructions to run the project locally:
+
+<details>
+  <summary><b>1. Prerequisites</b></summary>
+  <ul>
+    <li>Node.js & npm installed</li>
+    <li>XAMPP/WAMP (for local PHP/MySQL environment)</li>
+  </ul>
+</details>
+
+<details>
+  <summary><b>2. Backend Setup (PHP & MySQL)</b></summary>
+  <ol>
+    <li>Create a MySQL database named <code>jobtracker_db</code>.</li>
+    <li>Import the provided <code>.sql</code> file into your database.</li>
+    <li>Navigate to <code>backend/config/</code> and update your DB credentials.</li>
+    <li>Start your Apache and MySQL servers via XAMPP.</li>
+  </ol>
+</details>
+
+<details>
+  <summary><b>3. Frontend Setup (React)</b></summary>
+  
+  ```bash
+  # Clone the repository
+  git clone [https://github.com/akashbojja/JobTracker.git](https://github.com/akashbojja/JobTracker.git)
+
+  # Navigate to frontend and install dependencies
+  cd JobTracker/frontend
+  npm install
+
+  # Configure environment variables (create a .env file)
+  echo "VITE_API_BASE_URL=http://localhost/JobTracker/backend/api" > .env
+
+  # Start the development server
+  npm run dev
