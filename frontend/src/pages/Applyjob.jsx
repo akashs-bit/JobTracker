@@ -26,7 +26,7 @@ import {
    from the URL. No hardcoded/fake job data is used.
 ========================================================= */
 
-const JOB_API = "https://jobtrackerapp.rf.gd/backend/api/jobs/get-by-id.php";
+const JOB_API = "https://jobtracker-w9yo.onrender.com/api/jobs/get-by-id.php";
 
 /* =========================================================
    INPUT STYLE
@@ -326,7 +326,7 @@ const ApplyJob = () => {
 
     try {
       const response = await fetch(
-        "https://jobtrackerapp.rf.gd/backend/api/applications/apply.php",
+        "https://jobtracker-w9yo.onrender.com/api/applications/apply.php",
         {
           method: "POST",
           body: data,

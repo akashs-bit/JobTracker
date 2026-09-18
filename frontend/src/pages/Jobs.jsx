@@ -19,13 +19,13 @@ import {
   LoaderCircle,
 } from "lucide-react";
 
-const JOBS_API = "https://jobtrackerapp.rf.gd/backend/api/jobs/get.php";
+const JOBS_API = "https://jobtracker-w9yo.onrender.com/api/jobs/get.php";
 const SAVED_JOBS_API =
-  "https://jobtrackerapp.rf.gd/backend/api/saved-jobs/get-my-saved-jobs.php";
+  "https://jobtracker-w9yo.onrender.com/api/saved-jobs/get-my-saved-jobs.php";
 const SAVE_JOB_API =
-  "https://jobtrackerapp.rf.gd/backend/api/saved-jobs/save.php";
+  "https://jobtracker-w9yo.onrender.com/api/saved-jobs/save.php";
 const REMOVE_SAVED_JOB_API =
-  "https://jobtrackerapp.rf.gd/backend/api/saved-jobs/remove.php";
+  "https://jobtracker-w9yo.onrender.com/api/saved-jobs/remove.php";
 
 const Jobs = () => {
   const [jobsData, setJobsData] = useState([]);

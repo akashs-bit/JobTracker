@@ -20,7 +20,7 @@ import {
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 
-const API = "https://jobtrackerapp.rf.gd/backend/api/interviews";
+const API = "https://jobtracker-w9yo.onrender.com/api/interviews";
 
 function formatDate(value) {
   if (!value) return "—";

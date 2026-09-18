@@ -50,7 +50,7 @@ const Login = () => {
 
     try {
       const response = await fetch(
-        "https://jobtrackerapp.rf.gd/backend/api/auth/login.php",
+        "https://jobtracker-w9yo.onrender.com/api/auth/login.php",
         {
           method: "POST",
           headers: {

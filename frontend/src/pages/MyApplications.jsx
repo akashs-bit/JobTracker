@@ -138,7 +138,7 @@ function MyApplications() {
         }
 
         const response = await fetch(
-          `https://jobtrackerapp.rf.gd/backend/api/applications/get-my-applications.php?user_id=${encodeURIComponent(
+          `https://jobtracker-w9yo.onrender.com/api/applications/get-my-applications.php?user_id=${encodeURIComponent(
             userId
           )}`
         );
